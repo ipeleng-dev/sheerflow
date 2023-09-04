@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.hero{
+    background-color: #11112B;
+    min-height: 100vh;    
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 7%;
+    margin-top: 2%;
+    
+}
+
+.logo > h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: white;
+    font-weight: 700;
+}
+
+.logo > h1 span{
+    color: white;
+    font-weight: 300;
+}
